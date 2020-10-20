@@ -94,7 +94,8 @@ if __name__ == "__main__":
         while fail_num > 0:
             try:
                 # 执行一键修改步数
-                LexinSport('18373009841', '111111', 88888).one_click_change_step()
+                #（账号， 密码，步数）
+                LexinSport('乐心注册手机号', '密码', 88888).one_click_change_step()
                 break
             except Exception as e:
                 print('运行出错，原因：%s' % e)
